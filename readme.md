@@ -1,3 +1,8 @@
+# IMPORTANT : to make it work, you will need the help of an additionnal ADC converter because the one on the ESP32 isn't accurate enough. Here we used an ADS1115 from Adafruit
+>You can find it here : https://www.adafruit.com/product/1085
+>
+>And here is the library you'll need to add to your sketch : https://github.com/GreenPonik/Adafruit_ADS1X15
+
 # example how to use ESP pH read with ADC ads1115 library
 >[DFRobot ESP PH WITH ADC BY GREENPONIK](https://github.com/GreenPonik/DFRobot_ESP_PH_WITH_ADC_BY_GREENPONIK)
 

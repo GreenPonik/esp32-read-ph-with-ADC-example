@@ -1,9 +1,14 @@
-#include <Arduino.h>
-#include "DFRobot_ESP_PH_WITH_ADC.h"
+#include "Arduino.h"
+
+#include "DFRobot_ESP_PH_WITH_ADC.h" //https://github.com/GreenPonik/DFRobot_ESP_PH_WITH_ADC_BY_GREENPONIK.git
+#include "Adafruit_ADS1015.h"		 //https://github.com/GreenPonik/Adafruit_ADS1X15.git
+
 #include "OneWire.h"
 #include "DallasTemperature.h"
-#include "Adafruit_ADS1015.h"
+
 #include "EEPROM.h"
+
+
 
 #define ONE_WIRE_BUS 15
 OneWire oneWire(ONE_WIRE_BUS);
