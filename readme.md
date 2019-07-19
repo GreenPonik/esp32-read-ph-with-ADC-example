@@ -16,3 +16,6 @@
 
 ## #3 debug through serial monitor
 > pio device monitor
+
+# Tutorial here
+[![Tutorial here](http://img.youtube.com/vi/EqFw561pO5k/0.jpg)](https://www.youtube.com/watch?v=EqFw561pO5k "PH Meter with ESP32 and DFRobot PH module (SEN0161-V2)")

@@ -52,7 +52,7 @@ void loop()
 		Serial.print("voltage:");
 		Serial.println(voltage, 4);
 
-		temperature = readTemperature(); // read your temperature sensor to execute temperature compensation
+		// temperature = readTemperature(); // read your temperature sensor to execute temperature compensation
 		Serial.print("temperature:");
 		Serial.print(temperature, 1);
 		Serial.println("^C");
