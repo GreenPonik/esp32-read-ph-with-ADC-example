@@ -1,3 +1,4 @@
+# Only compatible with ESP32
 # IMPORTANT : to make it work, you will need the help of an additionnal ADC converter because the one on the ESP32 isn't accurate enough. Here we used an ADS1115 from Adafruit
 >You can find it here : https://www.adafruit.com/product/1085
 >
